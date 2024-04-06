@@ -1,0 +1,135 @@
+{
+   "files.autoSave": "afterDelay",
+     //"workbench.colorTheme": "Dracula Soft",
+     //"compile-hero.generate-minified-html": true,
+     //"compile-hero.generate-minified-css": true,
+     "php.validate.executablePath": "C:/php-7.4.28/php.exe",
+     "php.executablePath": "C:/php-7.4.28/php.exe",
+     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+     //"editor.renderIndentGuides": true,
+     "editor.fontWeight": "normal",
+     "editor.detectIndentation": false,
+     "editor.tabSize": 3,
+     "editor.suggestSelection": "Second",
+     "editor.codeLensFontFamily": "Fira Code",
+     "editor.codeLensFontSize": 16,
+     "breadcrumbs.enabled": false,
+     "editor.fontSize": 14,
+     "editor.fontFamily":  "fira code",
+     "editor.fontLigatures": "terminal.integrated.cursorWidth",
+     "editor.cursorWidth": 2,
+     "editor.lineHeight": 24,
+   
+     // cursor
+     "editor.cursorSmoothCaretAnimation": "on",
+     "editor.cursorBlinking": "expand",
+   
+     "editor.quickSuggestions": {
+       "other": true,
+       "comments": true,
+       "strings": true,
+       "tag": true,
+       "class": true,
+       "id": true
+     },
+     // config related to code formatting
+     "editor.defaultFormatter": "esbenp.prettier-vscode",
+     "editor.formatOnSave": false,
+     "[javascript]": {
+       "editor.formatOnSave": true
+     },
+     "[javascriptreact]": {
+       "editor.formatOnSave": true
+     },
+     "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit"
+   },
+     //terminal
+     //"terminal.integrated.cursorSmoothCaretAnimation": true,
+     "terminal.integrated.cursorBlinking": true,
+     "terminal.integrated.cursorStyle": "line",
+     "terminal.integrated.fontSize": 15,
+     "terminal.integrated.lineHeight": 1.1,
+     //"terminal.integrated.fontWeight": "normal",
+     "terminal.integrated.fontFamily": "monospace",
+   
+     "terminal.integrated.cursorWidth": 2,
+    // "terminal.integrated.shell.windows": "C:/Users/user/AppData/Local/Microsoft/WindowsApps/wt.exe",
+     "terminal.integrated.automationShell.windows": null,
+
+     // terminal customization
+     "workbench.colorCustomizations": {
+      "terminal.ansiBlack": "#171c2a",
+      "terminal.ansiRed": "#E35535",
+      "terminal.ansiGreen": "#52AB62",
+      "terminal.ansiYellow": "#ffd866",
+      "terminal.ansiBlue": "#00B3BD",
+      "terminal.ansiMagenta": "#e991e3",
+      "terminal.ansiCyan": "#78e8c6",
+      "terminal.ansiWhite": "#FFFFFFcc",
+      "terminal.ansiBrightBlack": "#00B3BD",
+      "terminal.ansiBrightRed": "#E35535",
+      "terminal.ansiBrightGreen": "#52AB62",
+      "terminal.ansiBrightYellow": "#ffd866",
+      "terminal.ansiBrightBlue": "#00B3BD",
+      "terminal.ansiBrightMagenta": "#e991e3",
+      "terminal.ansiBrightCyan": "#78e8c6",
+      "terminal.ansiBrightWhite": "#ffffff",
+      "terminal.background": "#171c2a",
+      "terminalCursor.background": "#ffd866",
+      "terminalCursor.foreground": "#ffd866",
+      
+      // Editor customaize
+      "editorIndentGuide.activeBackground": "#430f7e",
+      "editorIndentGuide.background": "#3a383a",
+      //  "activityBar.background": "#740ee9f8",
+      "editorBracketMatch.background": "#430f7e",
+      "editorBracketMatch.border": "#ffffff",
+      "editor.wordHighlightStrongBackground": "#740ee9f8",
+      "editor.wordHighlightBorder": "#740ee9f8",
+      "editor.rangeHighlightBackground": "#740ee9f8",
+      "editor.rangeHighlightBorder": "#740ee9f8",
+      "editor.selectionBackground": "#c7c7c76b",
+      "editor.selectionHighlightBorder": "#ffffff",
+      "tab.activeBackground": "#5332a0",
+      "tab.border": "#430f7e"
+     },
+   //   "prettier.disableLanguages": ["html", "css"],
+     "dictCompletion.addSpaceAfterCompletion": true,
+     "beautify.language": {
+       "js": {
+         "type": ["javascript", "json", "jsonc"],
+         "filename": [".jshintrc", ".jsbeautifyrc"]
+       },
+       "css": ["css", "scss"],
+       "html": ["htm", "html", "css", "javascript", "php", "blade"],
+       "php": ["javascript", "php", "blade"]
+     },
+     "phpformatter.logging": true,
+     "[json]": {
+       "editor.quickSuggestions": {
+         "strings": true
+       },
+       "editor.suggest.insertMode": "replace"
+   },
+   "workbench.colorTheme": "Ayu Dark",
+   "workbench.iconTheme": "material-icon-theme",
+   "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+   },
+   "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+     "backorder"
+  ],
+  "explorer.confirmDelete": false,
+"window.zoomLevel": 0,
+"[python]": {
+   "editor.defaultFormatter": "ms-python.python"
+},
+"python.analysis.typeCheckingMode": "basic",
+"git.ignoreLimitWarning": true,
+   }
