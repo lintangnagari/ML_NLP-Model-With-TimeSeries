@@ -1,24 +1,33 @@
 # %% [markdown]
-# # **PROYEK KEDUA : MEMBUAT MODEL NLP DENGAN DATA TIME SERIES 👨🏽‍💻**
+# # **SECOND PROJECT : BUILD NLP MODEL WITH TIME SERIES DATA 👨🏽‍💻**
 
 # %% [markdown]
 # * Name         : Lintang Nagari
 # * Email        : unggullintangg@gmail.com
 # * Linkedin     : <a href='https://www.linkedin.com/in/lintangnagari/'>Lintang Nagari</a>
-# * Id Dicoding  : <a href='https://www.dicoding.com/users/lnt_ngr/'>lnt_ngr</a>
+# * Github       : <a href='https://github.com/lnt-ngr'>lnt-ngr</a>
 
 # %% [markdown]
-# **Berikut kriteria submission yang harus Anda penuhi:**
+# **Here are the submission criteria you must meet:**
 # 
-# 
-# * Dataset yang akan dipakai bebas, namun minimal memiliki 1000 sampel.
-# * Harus menggunakan LSTM dalam arsitektur model.
-# * Validation set sebesar 20% dari total dataset.
-# * Model harus menggunakan model sequential.
-# * Harus menggunakan Learning Rate pada Optimizer.
-# * MAE < 10% skala data.
+# * Use any dataset, but it must have **at least 1000 samples**.
+# * Must use `LSTM` in the model architecture.
+# * Validation set **should be 20%** of the total dataset.
+# * Model must use a `sequential model`.
+# * Must use Learning Rate in the optimizer.
+# * MAE should be **less than 10%** of the data scale.
 # 
 # **Dataset : https://www.kaggle.com/datasets/shubhamcodez/berkeley-earth-daily-average-temperature**
+# 
+# **About Dataset**
+# 
+# Temperatures are in Celsius and reported as anomalies relative to the `Jan 1951-Dec 1980` average.
+# 
+# The current dataset presented here is described as:
+# Berkeley Earth daily TAVG full dataset This current analysis product is preliminary and may be subject to significant future revisions.This analysis was run on `06-Sep-2022` 15:50:29
+# 
+# Results are based on a **50461 monthly time series** with 21047039 observations and 48263 daily time series with 512331899 observations
+# Estimated Jan 1951-Dec 1980 land-average temperature (C): `8.59 +/- 0.05`
 
 # %% [markdown]
 # ### __IMPORT LIBRARY__
